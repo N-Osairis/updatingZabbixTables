@@ -6,7 +6,7 @@ This script provided to push the tables data from zabbix(HQ_clone) to platformdb
  The script automatically, access to the platform server and stop the platform script 
  and then will update the tables and once updating finish it  will restart the platform script. 
 
-list of zabbix tbales:
+List of zabbix tbales:
 1)'acknowledges'
 2)'actions'
 3)'alerts'
