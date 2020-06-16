@@ -25,9 +25,17 @@ SOURCE_CRED = {
     "database" :'zabbix'
 }
 # Database credentials(platform_db)
+# DEST_CRED = {
+#     "host": "18.136.66.177",
+#     "port": 10408,
+#     "user": "reza",
+#     "passwd": "ZAQ!2wsx8262",
+#     "database": 'platformDB'
+# }
+# Database credentials(platform_db_test)
 DEST_CRED = {
     "host": "18.136.66.177",
-    "port": 10408,
+    "port": 10407,
     "user": "reza",
     "passwd": "ZAQ!2wsx8262",
     "database": 'platformDB'
