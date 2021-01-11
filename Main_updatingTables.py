@@ -9,17 +9,28 @@ db_tables = ['acknowledges', 'actions', 'alerts', 'drules', 'events',
              'hosts', 'interface', 'items', 'maintenances',
              'network_zabbixgraphs', 'triggers', 'users', 'valuemaps'
              ]
-# =======================================
-# Database credentials(CLONE ZABBIX- HQ)
+
+
+# Database credentials(zabbix _AWS)
 source_cred = {
-    "host": "175.139.176.181",
-    "port": 13345,
+    "host": "18.136.66.177",
+    "port": "13306",
     "user": "al.thahirie",
     "passwd": "ZAQ!2wsx8262",
     "database": 'zabbix'
-}
+ }
+
 # =======================================
-# SSH server credentials(platform_db)
+# Database credentials(CLONE ZABBIX- HQ)
+# source_cred = {
+#     "host": "202.168.69.200",
+#     "port": 13345,
+#     "user": "al.thahirie",
+#     "passwd": "ZAQ!2wsx8262",
+#     "database": 'zabbix'
+# }
+# =======================================
+# # SSH server credentials(platform_db)
 platformscrip_ssh_cred = {
     "host": "18.136.66.177",
     "port": 10424,
@@ -27,7 +38,7 @@ platformscrip_ssh_cred = {
     "passwd": "zaq12wsx8262"
 }
 
-# Database credentials(platform_db)
+# # Database credentials(platform_db)
 dest_cred = {
     "host": "18.136.66.177",
     "port": 10408,
@@ -36,14 +47,14 @@ dest_cred = {
     "database": 'platformDB'
 }
 # =======================================
-# SSH server credentials(platform_db_test)
-# platformscrip_ssh_cred={
+# # SSH server credentials(platform_db_test)
+# platformscrip_ssh_cred = {
 #     "host": "18.136.66.177",
 #     "port": 10423,
 #     "user": "centos",
 #     "passwd": "zaq12wsx8262"
 # }
-# Database credentials(platform_db_test)
+# # Database credentials(platform_db_test)
 # dest_cred = {
 #     "host": "18.136.66.177",
 #     "port": 10407,
