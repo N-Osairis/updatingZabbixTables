@@ -14,8 +14,8 @@ db_tables = ['acknowledges', 'actions', 'alerts', 'drules', 'events',
 # Database credentials(zabbix _AWS)
 source_cred = {
     "host": "18.136.66.177",
-    "port": "13306",
-    "user": "al.thahirie",
+    "port": 13306,
+    "user": "reza",
     "passwd": "ZAQ!2wsx8262",
     "database": 'zabbix'
  }
@@ -35,7 +35,7 @@ platformscrip_ssh_cred = {
     "host": "18.136.66.177",
     "port": 10424,
     "user": "centos",
-    "passwd": "zaq12wsx8262"
+    "passwd": "PioiJWMqo0ouvDeN"
 }
 
 # # Database credentials(platform_db)
